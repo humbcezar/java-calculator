@@ -1,4 +1,4 @@
-package calculator;
+package main.java.calculator;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

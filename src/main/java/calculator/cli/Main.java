@@ -1,6 +1,6 @@
-package calculator.cli;
+package main.java.calculator.cli;
 
-import calculator.CalculatorParseTree;
+import main.java.calculator.CalculatorParseTree;
 
 public class Main {
     public static void main(String[] args) {

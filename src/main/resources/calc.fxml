@@ -1,7 +1,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <BorderPane xmlns:fx="http://javafx.com/fxml"
-            fx:controller="calculator.Controller" stylesheets="/calculator/styles.css">
+            fx:controller="main.java.calculator.Controller">
     <top>
         <HBox prefHeight="50" maxHeight="50">
             <TextField fx:id="calcInput" prefHeight="Infinity" alignment="TOP_RIGHT" prefWidth="300"

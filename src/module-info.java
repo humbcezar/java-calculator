@@ -4,5 +4,5 @@ module calculator {
     requires org.junit.jupiter.api;
     requires org.junit.jupiter.params;
 
-    opens calculator;
+    opens main.java.calculator;
 }

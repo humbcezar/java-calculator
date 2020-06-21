@@ -1,5 +1,6 @@
-package calculator;
+package test.java.calculator;
 
+import main.java.calculator.CalculatorParseTree;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -39,8 +40,9 @@ class CalculatorParseTreeTest {
 
     @ParameterizedTest
     @MethodSource("calculateProvider")
-    void calculate(String expected, String input) {
+    public void testCalculate(String expected, String input) {
         CalculatorParseTree calculatorParseTree = new CalculatorParseTree(input);
         assertEquals(expected, calculatorParseTree.calculate());
     }
+
 }
